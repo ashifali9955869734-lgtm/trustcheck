@@ -1,73 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrustCheck | AI Scam Detector</title>
 
-<title>TrustCheck | AI Scam Detector</title>
+  <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header class="header">
 
-<div class="container">
+  <div class="container">
 
-<div class="logo">
+    <div class="logo">
+      <img src="assets/icons/logo.svg" alt="TrustCheck Logo">
+      <span>TrustCheck</span>
+    </div>
 
-<img src="assets/icons/logo.svg" alt="TrustCheck">
+    <button class="menu-btn">☰</button>
 
-<span>TrustCheck</span>
-
-</div>
-
-<button class="menu-btn">☰</button>
-
-</div>
+  </div>
 
 </header>
 
 <section class="hero">
 
-<div class="container">
+  <div class="container">
 
-<h1>
-Check Any Website<br>
-Before You Trust It.
-</h1>
+    <h1>
+      Check Any Website<br>
+      Before You Trust It.
+    </h1>
 
-<p>
+    <p>
+      AI-powered scam detection for websites, links, emails and QR codes.
+    </p>
 
-AI-powered scam detection for websites, links, emails and QR codes.
+    <div class="search-box">
 
-</p>
+      <input
+        type="text"
+        placeholder="Paste website URL...">
 
-<div class="search-box">
+      <button>
+        Analyze
+      </button>
 
-<input
-type="text"
-placeholder="Paste website URL...">
+    </div>
 
-<button>
-
-Analyze
-
-</button>
-
-</div>
-
-</div>
+  </div>
 
 </section>
+
 <section class="features">
 
   <div class="container">
@@ -95,10 +86,41 @@ Analyze
 
   </div>
 
-  </section>
+</section>
+
+<section class="alerts">
+
+  <div class="container">
+
+    <h2>Latest Scam Alerts</h2>
+
+    <div class="alert-list">
+
+      <div class="alert-card">
+        <span class="risk high">HIGH</span>
+        <h3>Fake Bank KYC Update</h3>
+        <p>Fraudsters ask users to update KYC using fake links.</p>
+      </div>
+
+      <div class="alert-card">
+        <span class="risk medium">MEDIUM</span>
+        <h3>WhatsApp Job Scam</h3>
+        <p>Scammers promise easy money through fake jobs.</p>
+      </div>
+
+      <div class="alert-card">
+        <span class="risk low">LOW</span>
+        <h3>Fake Delivery SMS</h3>
+        <p>Fake parcel delivery messages asking for payment.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>

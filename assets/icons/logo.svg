@@ -1,22 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <defs>
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFD54A"/>
-      <stop offset="100%" stop-color="#D4A017"/>
-    </linearGradient>
-  </defs>
+<svg width="512" height="512" viewBox="0 0 512 512"
+xmlns="http://www.w3.org/2000/svg">
 
-  <path
-    d="M32 4 L54 12 V28 C54 43 44 54 32 60 C20 54 10 43 10 28 V12 Z"
-    fill="url(#gold)"
-  />
+<defs>
 
-  <path
-    d="M22 32 L29 39 L43 23"
-    stroke="white"
-    stroke-width="5"
-    fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
+<linearGradient id="gold"
+x1="0%" y1="0%"
+x2="100%" y2="100%">
+
+<stop offset="0%" stop-color="#FFF3A3"/>
+<stop offset="40%" stop-color="#FFD54F"/>
+<stop offset="70%" stop-color="#D4AF37"/>
+<stop offset="100%" stop-color="#8A6A00"/>
+
+</linearGradient>
+
+<filter id="shadow">
+
+<feDropShadow
+dx="0"
+dy="0"
+stdDeviation="12"
+flood-color="#FFD54F"
+flood-opacity="0.65"/>
+
+</filter>
+
+</defs>
+
+<!-- Shield -->
+
+<path
+filter="url(#shadow)"
+fill="url(#gold)"
+d="
+M256 32
+L408 88
+V208
+C408 328
+344 424
+256 480
+C168 424
+104 328
+104 208
+V88
+L256 32Z"/>
+
+<!-- Inner Shield -->
+
+<path
+fill="#090909"
+d="
+M256 72
+L374 116
+V208
+C374 304
+325 379
+256 425
+C187 379
+138 304
+138 208
+V116
+L256 72Z"/>
+
+<!-- Tick -->
+
+<path
+fill="none"
+stroke="url(#gold)"
+stroke-width="28"
+stroke-linecap="round"
+stroke-linejoin="round"
+d="
+M180 246
+L235 302
+L334 188"/>
+
 </svg>

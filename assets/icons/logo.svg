@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54A"/>
+      <stop offset="100%" stop-color="#D4A017"/>
+    </linearGradient>
+  </defs>
+
+  <path
+    d="M32 4 L54 12 V28 C54 43 44 54 32 60 C20 54 10 43 10 28 V12 Z"
+    fill="url(#gold)"
+  />
+
+  <path
+    d="M22 32 L29 39 L43 23"
+    stroke="white"
+    stroke-width="5"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

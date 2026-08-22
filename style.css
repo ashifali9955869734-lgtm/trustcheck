@@ -180,3 +180,54 @@ width:100%;
 .card p{
   color:var(--muted);
 }
+.alerts{
+    padding:80px 0;
+}
+
+.alerts h2{
+    text-align:center;
+    margin-bottom:35px;
+    font-size:32px;
+}
+
+.alert-list{
+    display:grid;
+    gap:20px;
+}
+
+.alert-card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:18px;
+    padding:22px;
+    transition:.3s;
+}
+
+.alert-card:hover{
+    transform:translateY(-5px);
+    border-color:var(--primary);
+}
+
+.risk{
+    display:inline-block;
+    padding:6px 12px;
+    border-radius:999px;
+    font-size:12px;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.high{
+    background:#ef4444;
+    color:white;
+}
+
+.medium{
+    background:#f59e0b;
+    color:white;
+}
+
+.low{
+    background:#22c55e;
+    color:white;
+  }

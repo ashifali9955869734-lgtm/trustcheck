@@ -28,18 +28,20 @@ body{
 .logo{
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:12px;
 }
 
-.shield{
-    font-size:34px;
+.logo-img{
+    width:42px;
+    height:42px;
+    display:block;
 }
 
 .logo h1{
     color:#3B82F6;
-    font-size:30px;
+    font-size:28px;
+    font-weight:700;
 }
-
 .lang-btn{
     background:#3B82F6;
 
